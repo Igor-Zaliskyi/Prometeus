@@ -1,0 +1,45 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    & body {
+        margin: 0;
+        & article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+    }
+}
+body{
+    font-family: Arial, sans-serif;
+    font-family: 100%;
+    & ul{
+        margin: 0;
+        padding: 0;
+        & li {
+            list-style-type: none;
+            & a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+.container{
+    margin: 0 auto;
+    width: 960px;
+
+}
+p {
+    font-size: 13px;
+    line-height: 1.3em;
+}

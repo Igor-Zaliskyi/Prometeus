@@ -1,0 +1,133 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+  html body {
+    margin: 0; }
+    html body article,
+    html body aside,
+    html body details,
+    html body figcaption,
+    html body figure,
+    html body footer,
+    html body header,
+    html body main,
+    html body menu,
+    html body nav,
+    html body section,
+    html body summary {
+      display: block; }
+
+body {
+  font-family: Arial, sans-serif;
+  font-family: 100%; }
+  body ul {
+    margin: 0;
+    padding: 0; }
+    body ul li {
+      list-style-type: none; }
+      body ul li a {
+        text-decoration: none; }
+
+.container {
+  margin: 0 auto;
+  width: 960px; }
+
+p {
+  font-size: 13px;
+  line-height: 1.3em; }
+
+.header {
+  padding: 50px 0;
+  background-color: yellowgreen; }
+  .header h1, .header h2 {
+    color: yellow;
+    text-align: center; }
+
+.page-gationnavi {
+  background-color: #222;
+  border-color: #101010;
+  min-height: 64px; }
+  .page-gationnavi li {
+    float: left;
+    width: 100px; }
+    .page-gationnavi li a {
+      display: block;
+      color: #9d9d9d;
+      line-height: 4em;
+      font-weight: bold;
+      text-align: center; }
+      .page-gationnavi li a:hover {
+        color: yellowgreen;
+        background-color: black; }
+  .page-gationnavi .login {
+    padding: 15px 0;
+    float: right; }
+    .page-gationnavi .login input[type="text"],
+    .page-gationnavi .login input[type="password"] {
+      padding: 5;
+      margin-right: 5px;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      outline: none; }
+    .page-gationnavi .login input[type="submit"] {
+      padding: 5px 15px;
+      border: 1px solid lightgrey;
+      border-radius: 5px; }
+      .page-gationnavi .login input[type="submit"]:hover {
+        background-color: darkgrey;
+        color: white; }
+
+.collection-title {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #777;
+  font-size: 36px; }
+  .collection-title small {
+    color: #777;
+    font-size: 70%; }
+
+.collections {
+  overflow: auto; }
+  .collections > div:first-child {
+    padding-left: 0;
+    padding-right: 5px; }
+  .collections > div:last-child {
+    padding-left: 5px;
+    padding-right: 0; }
+  .collections .collection-item-outer {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+    box-sizing: border-box; }
+    .collections .collection-item-outer .collection-item {
+      border: 1px solid #959595; }
+      .collections .collection-item-outer .collection-item img, .collections .collection-item-outer .collection-item video {
+        width: 100%; }
+      .collections .collection-item-outer .collection-item .collection-text {
+        padding: 0 20px 20px 20px; }
+        .collections .collection-item-outer .collection-item .collection-text h3 {
+          color: yellowgreen;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+        .collections .collection-item-outer .collection-item .collection-text p {
+          max-height: 80px;
+          overflow: hidden; }
+        .collections .collection-item-outer .collection-item .collection-text button {
+          padding: 10px;
+          border: 1px solid transparent;
+          border-radius: 5px;
+          outline: none; }
+          .collections .collection-item-outer .collection-item .collection-text button:hover {
+            background-color: darkgrey;
+            color: white; }
+
+.footer {
+  background-color: yellowgreen;
+  color: white;
+  padding: 20px 0;
+  margin-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */

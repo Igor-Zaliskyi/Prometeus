@@ -1,0 +1,5 @@
+@mixin d_flex ($df){
+    display: -webkit-box $df;
+    display: -ms-flexbox $df;
+    display: flex $df;
+}
